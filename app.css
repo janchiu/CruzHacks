@@ -1,0 +1,117 @@
+body, html {
+    background-color: powderblue;
+    height: 100%;
+}
+
+#topPart{
+	position: absolute;
+	left:5%;
+	top:5%;
+	width: 100%;
+	height: 10%;
+}
+
+#playButton{
+	width: 1000px;
+	height: 800px;
+}
+.playerbox{
+	position: absolute;
+	top: 20%;
+	left: 3%
+}
+
+.chatbox{
+	position: absolute;
+	top: 20%;
+	left: 70%;
+}
+
+#line {
+	position: absolute;
+	left:0%;
+	top:20%;
+	width: 100%;
+	height: 10%;
+}
+
+#about{
+	position: absolute;
+	left:1%;
+	top:24%;
+	width: 95%;
+	height: 24%;
+}
+#aboutDesc{
+	position: absolute;
+	left:1%;
+	top:35%;
+	width: 95%;
+	height: 15%;
+	border: 2px solid black;
+}
+#who{
+	position: absolute;
+	left:1%;
+	top:55%;
+	width: 95%;
+	height: 24%;
+}
+#whoDesc{
+	position: absolute;
+	left:1%;
+	top:65%;
+	width: 95%;
+	height: 24%;
+	border: 2px solid black;
+}
+#td {
+	border: 2px solid black;
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#wordDisplay {
+	position: absolute;
+	left:50%;
+}
+
+#button {
+	position: absolute;
+	left:50%;
+	top:95%;
+}
+#rules{
+	position: absolute;
+	left:1%;
+	top:24%;
+	width: 95%;
+	height: 24%;
+}
+#rulesDesc{
+	position: absolute;
+	left:1%;
+	top:35%;
+	width: 95%;
+	height: 20%;
+	border: 2px solid black;
+}
+#HTP{
+	position: absolute;
+	left:1%;
+	top:55%;
+	width: 95%;
+	height: 24%;
+}
+#HTPDesc{
+	position: absolute;
+	left:1%;
+	top:65%;
+	width: 95%;
+	height: 24%;
+	border: 2px solid black;
+}
