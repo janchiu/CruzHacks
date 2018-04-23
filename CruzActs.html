@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CruzActs</title>
+	<link href = "css/app.css" rel = "stylesheet" type = "text/css">	
+</head>
+<body>
+<style>
+.modal{
+display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content{
+	background-color: #fefefe
+	margin: auto;
+	padding: 20px:
+	border: 1px solid #888;
+	width: 80%;
+	}
+	
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+</style>
+
+<!--<style>
+p{
+id = "boxy"
+}
+</style>-->
+<div class = "playerbox">
+	<ul style = "list-style-type: none">
+	<li>Current Players</li>
+	<li><textarea name = "currentPlayers" rows = "20" cols = "30" readonly>
+	</textarea></li>
+		
+</div>
+
+<div class = "chatbox">
+	<ul style = "list-style-type: none">
+		<li> Chat/Guesses</li>
+		<li><textarea name = "textBox" rows = "30" cols = "40" readonly>
+		</textarea></li>
+		<li><textarea name = "guessPlaceholder" rows = "1" cols = "40" placeholder = "Your Guesses"></textarea>
+		</li>
+</div>
+
+	<div id ="topPart">
+		<a href = "CruzActs.html">
+		<img src = "play.png" width = "100" height = "100"> 
+		</a>
+		<a href = "rules.html">
+		<img src = "rules.png" width = "100" height = "100">
+		</a>
+		<a href = "about.html">
+		<img src = "about.png" width = "100" height = "100">
+		</a> 
+		<img src = "cruzacts.png" width "100" height = "100">
+		<!--<button type = "button" name = "play" value "Play" width = "700px"id "playButton">Play</button>
+		-->
+		
+	</div>
+<div id ="wordDisplay" style ="top:85%">
+	
+</div>
+<div id="button" style="top:90%">
+	<button onclick="newWord()">New Word</button>
+	</div>
+	<script src="javascript.js">
+	</script>
+
+</body>
+</html>
